@@ -119,7 +119,3 @@ class Weibologin(object):
         self.setPostData(servertime=servertime,nonce=nonce,rsakv=rsakv,su=su,sp=sp)
         self.getPassport()
         self.login()
-
-
-login = Weibologin()
-login.simpleLogin()
